@@ -4,7 +4,7 @@ public class Duck {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a number");
         int n=sc.nextInt();
-        int n1=n,f=0,d=0;
+        int n1=n,f=0;
         while(n1!=0){
             if(n1%10==0){
                 f=1;
