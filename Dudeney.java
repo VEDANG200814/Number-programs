@@ -5,8 +5,8 @@ public class Dudeney {
         System.out.println("Enter a number");
         int n=sc.nextInt();
         int n1=n,s=0;
-        double cr=(int)Math.cbrt(n);
-        if(n>0){
+        int cr=(int)Math.cbrt(n);
+        if(n>0&&cr==Math.cbrt(n)){
             while(n1!=0){
                 s+=n1%10;
                 n1/=10;
