@@ -4,12 +4,12 @@ public class Keith {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a number");
         int n=sc.nextInt();
-        int c=0,n1=n,i=2;
+        int c=0,n1=n,i;
         while(n1!=0){
             n1/=10;
             c++;
         }
-        int a[]=new int[c+1],f=0;n1=n;
+        int a[]=new int[c+1],f=0;n1=n;i=c-1;
         while(n1!=0){
             a[i]=n1%10;
             n1/=10;
