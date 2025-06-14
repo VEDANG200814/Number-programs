@@ -1,6 +1,7 @@
 import java.util.*;
 public class Prime {
     public static void main(String[] args) {
+        long s=System.currentTimeMillis();
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number");
         int n=sc.nextInt();
@@ -19,5 +20,7 @@ public class Prime {
         System.out.println(n+" is a prime number");
         else
         System.out.println(n+" is not a prime number");
+        long e=System.currentTimeMillis();
+        System.out.println(e-s);
     }
 }
